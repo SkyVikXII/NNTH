@@ -18,9 +18,8 @@ header {
 }
 header .bar .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    max-width: 1200px;
     margin: 0px;
     padding: 0px 1vw;
 }
@@ -81,6 +80,7 @@ header .bar .nav-links p:hover {
     transition: border-bottom 0.1s ease-in-out;
 }
 header .bar .apply-btn {
+	font-size:2vw;
     background-color: #f7b600;
     color: #0a2a4a;
     padding: 1vw 2vw;
